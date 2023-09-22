@@ -1,0 +1,28 @@
+GET https://afh4fit2gi.execute-api.us-east-1.amazonaws.com/prod/spaces
+###
+
+
+POST https://afh4fit2gi.execute-api.us-east-1.amazonaws.com/prod/spaces
+content-type: application/json
+
+ {
+    "location": "Los Angeles",
+    "name": "Performance Acting Studio"
+ }
+###
+
+
+GET https://afh4fit2gi.execute-api.us-east-1.amazonaws.com/prod/spaces?id=b0f38bd2-da8d-48f1-9f4b-26ccba66e08b
+###
+
+PUT https://afh4fit2gi.execute-api.us-east-1.amazonaws.com/prod/spaces?id=ed9da96e-2ea7-41f2-a170-f0791e20e541
+content-Type: application/json
+
+   {
+      "location": "Ardsley"
+   }
+###
+
+
+DELETE  https://afh4fit2gi.execute-api.us-east-1.amazonaws.com/prod/spaces?id=ed9da96e-2ea7-41f2-a170-f0791e20e541
+###
